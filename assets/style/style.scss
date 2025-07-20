@@ -1,0 +1,162 @@
+body {
+    .Wrapper {
+        margin: 0 auto;
+        max-width: 1700px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+
+        .block_top {
+            display: flex;
+            justify-content: space-between;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
+
+                .fs70fw700 {
+                    font-size: 70px;
+                    font-weight: 700;
+                    line-height: 1.3;
+                }
+
+                .fs25fw500 {
+                    font-size: 25px;
+                    font-weight: 500;
+                    line-height: 1.5;
+                    color: rgb(90, 89, 89);
+                }
+
+                .block_link {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    display: flex;
+                    padding-top: 100px;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+
+                        .fs25fw600 {
+                            font-size: 25px;
+                            font-weight: 600;
+                        }
+
+                        .fs20fw500 {
+                            font-size: 20px;
+                            font-weight: 500;
+                        }
+                    }
+
+                }
+            }
+
+
+        }
+
+        .medium_block {
+            display: flex;
+            justify-content: space-between;
+
+            .medium_text {
+                display: flex;
+                flex-direction: column;
+                gap: 150px;
+
+                .medium_top_text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 35px;
+
+                    .fs40fw600 {
+                        font-size: 40px;
+                        font-weight: 600;
+                    }
+
+                    .fs25fw500 {
+                        font-size: 25px;
+                        font-weight: 500;
+                        color: rgb(90, 89, 89);
+                    }
+                }
+
+                .bottom_medium_block {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 45px;
+                    padding-left: 15px;
+
+                    .text_bottom_medium_block {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .fs25fw500 {
+                            font-size: 25px;
+                            font-weight: 500;
+                            color: rgb(90, 89, 89);
+                            line-height: 1.4;
+                        }
+
+                        img {
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+
+                }
+            }
+
+
+
+        }
+
+        .bottom_block {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            justify-content: center;
+            margin: 0 auto;
+
+            .fs40fw600 {
+                font-size: 40px;
+                font-weight: 600;
+            }
+
+            .block_news {
+                display: flex;
+                justify-content: space-between;
+                gap: 25px;
+
+                .news_blocks{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    img{
+                        border-top-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                    }
+
+                    .fs25fw500{
+                        font-size: 25px;
+                        font-weight: 500;
+                    }
+
+                    .fs20fw500{
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: rgb(95, 95, 95);
+                    }
+                }
+            }
+        }
+
+
+    }
+}
